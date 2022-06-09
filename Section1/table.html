@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test for creating table</title>
+</head>
+<body>
+    <h1>Lukes Table</h1>
+    <table>
+        <tr>
+            <th>COl1</th>
+            <th>COl2</th>
+            <th>COl3</th>
+            <th>COl4</th>
+        </tr>
+        <tr>
+            <td>1994</td>
+            <td>08</td>
+            <td>08</td>
+            <td>Birthday</td>
+            <td>wow</td>
+        </tr>
+
+        <tr>
+            <td>2022</td>
+            <td>03</td>
+            <td>28</td>
+        </tr>
+
+
+    </table>
+
+    <form action="demo01.html">
+        <p>
+            <label for="1">Username:</label>
+            <input id="1" type="text" placeholder="username" name="username"> <!-- This is a nice way -->
+        </p>
+        <label>
+            Enter Password:
+            <input type="password" placeholder="password">
+        </label>
+
+        <input type="color">
+        <input type="date" >
+        <input type="number" placeholder="enter a number">
+        <input type="time">
+        <input type="checkbox">
+
+        <br>
+
+        <button type="button">Submit</button>
+        <button>Submit</button>
+        <input type="submit" value="Click Here">
+
+    </form>
+    <h1>Hijacking</h1>
+    <br>
+    <h2>Google</h2>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Search</button>
+    </form>
+    <h3>Youtube</h3>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button>Search</button>
+        https://www.youtube.com/results?search_query=dog
+    </form>
+
+    <h2>More Inputs</h2>
+    <form action="">
+        <input type="checkbox" name="checking_test" id="check01" checked >  <!--default checked-->
+        <label for="check01">I want this</label>
+        <p>
+            <input type="radio" name="Size" id="r1" value="L">
+            <label for="r1">L</label>
+        </p>
+        <p>
+            <input type="radio" name="Size" id="r2" value="M">
+            <label for="r2">M</label>
+        </p>
+        <p>
+            <label for="r3">S</label>
+            <input type="radio" name="Size" id="r3" value="S">
+        </p>
+        <p>
+            <select name="people" id="people">
+                <option value="">Please select a person</option>
+                <option value="Luke">Luke</option>
+                <option value="Yanan">Yanan</option>
+                <option value="Road">Road</option>
+            </select>
+        </p>
+        <button>submit</button>
+
+        <p>
+            <label for="area"> choose the area </label>
+            <input type="range" id="area" min="0" max="10" value="0" step="1" name="area">
+        </p>
+
+    </form>
+
+
+
+
+
+</body>
+</html>
