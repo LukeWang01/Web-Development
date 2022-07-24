@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Registration</title>
+</head>
+<body>
+
+    <h1> Home - Registration! </h1>
+
+    <form action="Game%20Registration%20Done%20Page.html">
+        <div>
+            <p>
+                <label for="1">First Name: </label>
+                <input type="text" id="1" name="first" required maxlength="20">
+                <br>
+                <br>
+                <label for="2">Last Name</label>
+                <input type="text" id="2" name="last" required maxlength="20">
+            </p>
+        </div>
+
+        <div>
+            <p>
+                Select a Race:
+            </p>
+
+<!--            same radio categories should use the same name-->
+            <p>
+                <input type="radio" name="race" id="funrun" value="funrun">
+                <label for="funrun">Fun Run 5k</label>
+            </p>
+            <p>
+                <input type="radio" name="race" id="half" value="half">
+                <label for="half">Half Marathon</label>
+            </p>
+            <p>
+                <input type="radio" name="race" id="full" value="full">
+                <label for="full">Full Marathon</label>
+            </p>
+        </div>
+
+        <div>
+            <p>
+                <label for="6">Email: </label>
+                <input type="email" name="email" id="6" required minlength="3" maxlength="20">
+            </p>
+            <p>
+                <label for="7">Password: </label>
+                <input type="password" name="password" id="7" required minlength="8" maxlength="25">
+            </p>
+        </div>
+
+        <div>
+            <p>
+                <label for="8">Select Age Group: </label>
+                <select name="group" id="8">
+                    <option value="">Please select a group</option>
+                    <option value="0"> Under 18 </option>
+                    <option value="1"> 18 - 25 </option>
+                    <option value="2"> 25 - 40 </option>
+                </select>
+            </p>
+            <button> Register! </button>
+        </div>
+    </form>
+
+<!--    http://localhost:63342/Web-Development/Practice/Game%20Registration%20Done%20Page.html?first=leuke&last=213213&race=funrun&email=321321%40gmail&password=3233reff&group=1-->
+
+
+</body>
+</html>

@@ -5,7 +5,7 @@
     <title>Test for creating table</title>
 </head>
 <body>
-    <h1>Lukes Table</h1>
+    <h1>Luke's Table</h1>
     <table>
         <tr>
             <th>COl1</th>
@@ -40,11 +40,21 @@
             <input type="password" placeholder="password">
         </label>
 
-        <input type="color">
-        <input type="date" >
-        <input type="number" placeholder="enter a number">
-        <input type="time">
-        <input type="checkbox">
+        <label>
+            <input type="color">
+        </label>
+        <label>
+            <input type="date" >
+        </label>
+        <label>
+            <input type="number" placeholder="enter a number">
+        </label>
+        <label>
+            <input type="time">
+        </label>
+        <label>
+            <input type="checkbox">
+        </label>
 
         <br>
 
@@ -84,6 +94,7 @@
             <input type="radio" name="Size" id="r3" value="S">
         </p>
         <p>
+            <label for="people"> Selected People </label>
             <select name="people" id="people">
                 <option value="">Please select a person</option>
                 <option value="Luke">Luke</option>
@@ -96,6 +107,12 @@
         <p>
             <label for="area"> choose the area </label>
             <input type="range" id="area" min="0" max="10" value="0" step="1" name="area">
+        </p>
+
+        <p>
+            <label for="323">username</label>
+            <input type="text" name="first" id="323" required minlength="10">
+
         </p>
 
     </form>
