@@ -1,0 +1,18 @@
+h1 {
+    /*color: red;*/
+    color: rgb(255,168,200);
+    background-color: gray;
+    font-size: 15px;
+    font-family: Arial, "Segoe UI", serif;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: monospace;
+    text-align: center;
+    font-weight: 100;
+    font-size:40px;
+    letter-spacing: 20px;
+    text-decoration: plum wavy underline;
+}
+
